@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A25C985614A60F6398C05C1 /* Pods_iOSAPICallHandlingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45098636B7950D8D97F6FDF5 /* Pods_iOSAPICallHandlingUITests.framework */; };
 		1BE34593216DFE340026A7B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE34592216DFE340026A7B0 /* AppDelegate.swift */; };
-		1BE34595216DFE340026A7B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE34594216DFE340026A7B0 /* ViewController.swift */; };
 		1BE34598216DFE340026A7B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE34596216DFE340026A7B0 /* Main.storyboard */; };
 		1BE3459B216DFE340026A7B0 /* iOSAPICallHandling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BE34599216DFE340026A7B0 /* iOSAPICallHandling.xcdatamodeld */; };
 		1BE3459D216DFE350026A7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE3459C216DFE350026A7B0 /* Assets.xcassets */; };
 		1BE345A0216DFE350026A7B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE3459E216DFE350026A7B0 /* LaunchScreen.storyboard */; };
 		1BE345AB216DFE350026A7B0 /* iOSAPICallHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE345AA216DFE350026A7B0 /* iOSAPICallHandlingTests.swift */; };
 		1BE345B6216DFE360026A7B0 /* iOSAPICallHandlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE345B5216DFE360026A7B0 /* iOSAPICallHandlingUITests.swift */; };
+		1BE345C4216DFEF80026A7B0 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE345C3216DFEF80026A7B0 /* APIHandler.swift */; };
+		1BE345C6216DFF040026A7B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE345C5216DFF040026A7B0 /* ViewController.swift */; };
+		39065C5661DE3700F6B61065 /* Pods_iOSAPICallHandlingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61653EE05F52B0AA7A05EA2 /* Pods_iOSAPICallHandlingTests.framework */; };
+		99BD347E3445231B94582205 /* Pods_iOSAPICallHandling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556E61B0CB28F6E870D2C16 /* Pods_iOSAPICallHandling.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		1BE3458F216DFE340026A7B0 /* iOSAPICallHandling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAPICallHandling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE34592216DFE340026A7B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BE34594216DFE340026A7B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BE34597216DFE340026A7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BE3459A216DFE340026A7B0 /* iOSAPICallHandling.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSAPICallHandling.xcdatamodel; sourceTree = "<group>"; };
 		1BE3459C216DFE350026A7B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,17 @@
 		1BE345B1216DFE360026A7B0 /* iOSAPICallHandlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAPICallHandlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE345B5216DFE360026A7B0 /* iOSAPICallHandlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAPICallHandlingUITests.swift; sourceTree = "<group>"; };
 		1BE345B7216DFE360026A7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE345C3216DFEF80026A7B0 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		1BE345C5216DFF040026A7B0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../iOSAPICallDemo/iOSAPICallDemo/ViewController.swift; sourceTree = "<group>"; };
+		3556E61B0CB28F6E870D2C16 /* Pods_iOSAPICallHandling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAPICallHandling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45098636B7950D8D97F6FDF5 /* Pods_iOSAPICallHandlingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAPICallHandlingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		464A85C8C554848E49B72FEF /* Pods-iOSAPICallHandling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAPICallHandling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAPICallHandling/Pods-iOSAPICallHandling.debug.xcconfig"; sourceTree = "<group>"; };
+		485CA41C1B4889B0B9122F87 /* Pods-iOSAPICallHandlingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAPICallHandlingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAPICallHandlingUITests/Pods-iOSAPICallHandlingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5ACD516A150DDB5D7FAEF335 /* Pods-iOSAPICallHandling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAPICallHandling.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAPICallHandling/Pods-iOSAPICallHandling.release.xcconfig"; sourceTree = "<group>"; };
+		5E3463B0D9F9570B7F5EFA21 /* Pods-iOSAPICallHandlingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAPICallHandlingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAPICallHandlingUITests/Pods-iOSAPICallHandlingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7195CC0A557B0747FF56C02 /* Pods-iOSAPICallHandlingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAPICallHandlingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAPICallHandlingTests/Pods-iOSAPICallHandlingTests.release.xcconfig"; sourceTree = "<group>"; };
+		B61653EE05F52B0AA7A05EA2 /* Pods_iOSAPICallHandlingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAPICallHandlingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C719B5676D8940E16522529A /* Pods-iOSAPICallHandlingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAPICallHandlingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAPICallHandlingTests/Pods-iOSAPICallHandlingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BD347E3445231B94582205 /* Pods_iOSAPICallHandling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39065C5661DE3700F6B61065 /* Pods_iOSAPICallHandlingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A25C985614A60F6398C05C1 /* Pods_iOSAPICallHandlingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				1BE345A9216DFE350026A7B0 /* iOSAPICallHandlingTests */,
 				1BE345B4216DFE360026A7B0 /* iOSAPICallHandlingUITests */,
 				1BE34590216DFE340026A7B0 /* Products */,
+				8D925809DC3C33E63593C6B3 /* Pods */,
+				7C1A2DEF9E5C8D1B5E451952 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				1BE34592216DFE340026A7B0 /* AppDelegate.swift */,
-				1BE34594216DFE340026A7B0 /* ViewController.swift */,
+				1BE345C5216DFF040026A7B0 /* ViewController.swift */,
+				1BE345C3216DFEF80026A7B0 /* APIHandler.swift */,
 				1BE34596216DFE340026A7B0 /* Main.storyboard */,
 				1BE3459C216DFE350026A7B0 /* Assets.xcassets */,
 				1BE3459E216DFE350026A7B0 /* LaunchScreen.storyboard */,
@@ -128,6 +148,29 @@
 			path = iOSAPICallHandlingUITests;
 			sourceTree = "<group>";
 		};
+		7C1A2DEF9E5C8D1B5E451952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3556E61B0CB28F6E870D2C16 /* Pods_iOSAPICallHandling.framework */,
+				B61653EE05F52B0AA7A05EA2 /* Pods_iOSAPICallHandlingTests.framework */,
+				45098636B7950D8D97F6FDF5 /* Pods_iOSAPICallHandlingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D925809DC3C33E63593C6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				464A85C8C554848E49B72FEF /* Pods-iOSAPICallHandling.debug.xcconfig */,
+				5ACD516A150DDB5D7FAEF335 /* Pods-iOSAPICallHandling.release.xcconfig */,
+				C719B5676D8940E16522529A /* Pods-iOSAPICallHandlingTests.debug.xcconfig */,
+				A7195CC0A557B0747FF56C02 /* Pods-iOSAPICallHandlingTests.release.xcconfig */,
+				5E3463B0D9F9570B7F5EFA21 /* Pods-iOSAPICallHandlingUITests.debug.xcconfig */,
+				485CA41C1B4889B0B9122F87 /* Pods-iOSAPICallHandlingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BE345BA216DFE360026A7B0 /* Build configuration list for PBXNativeTarget "iOSAPICallHandling" */;
 			buildPhases = (
+				CA20E6B37EBC0D6FBD5280FC /* [CP] Check Pods Manifest.lock */,
 				1BE3458B216DFE340026A7B0 /* Sources */,
 				1BE3458C216DFE340026A7B0 /* Frameworks */,
 				1BE3458D216DFE340026A7B0 /* Resources */,
+				D7B99CF831E0D5122AA1A5CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BE345BD216DFE360026A7B0 /* Build configuration list for PBXNativeTarget "iOSAPICallHandlingTests" */;
 			buildPhases = (
+				B6C91AB47A82C79A6E4B50C6 /* [CP] Check Pods Manifest.lock */,
 				1BE345A2216DFE350026A7B0 /* Sources */,
 				1BE345A3216DFE350026A7B0 /* Frameworks */,
 				1BE345A4216DFE350026A7B0 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BE345C0216DFE360026A7B0 /* Build configuration list for PBXNativeTarget "iOSAPICallHandlingUITests" */;
 			buildPhases = (
+				565B8663F5054DC3291FAC5B /* [CP] Check Pods Manifest.lock */,
 				1BE345AD216DFE360026A7B0 /* Sources */,
 				1BE345AE216DFE360026A7B0 /* Frameworks */,
 				1BE345AF216DFE360026A7B0 /* Resources */,
@@ -254,14 +301,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		565B8663F5054DC3291FAC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSAPICallHandlingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C91AB47A82C79A6E4B50C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSAPICallHandlingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA20E6B37EBC0D6FBD5280FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSAPICallHandling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B99CF831E0D5122AA1A5CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSAPICallHandling/Pods-iOSAPICallHandling-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSAPICallHandling/Pods-iOSAPICallHandling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BE3458B216DFE340026A7B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BE34595216DFE340026A7B0 /* ViewController.swift in Sources */,
+				1BE345C6216DFF040026A7B0 /* ViewController.swift in Sources */,
 				1BE3459B216DFE340026A7B0 /* iOSAPICallHandling.xcdatamodeld in Sources */,
 				1BE34593216DFE340026A7B0 /* AppDelegate.swift in Sources */,
+				1BE345C4216DFEF80026A7B0 /* APIHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +555,7 @@
 		};
 		1BE345BB216DFE360026A7B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464A85C8C554848E49B72FEF /* Pods-iOSAPICallHandling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +573,7 @@
 		};
 		1BE345BC216DFE360026A7B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACD516A150DDB5D7FAEF335 /* Pods-iOSAPICallHandling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +591,7 @@
 		};
 		1BE345BE216DFE360026A7B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C719B5676D8940E16522529A /* Pods-iOSAPICallHandlingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +612,7 @@
 		};
 		1BE345BF216DFE360026A7B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7195CC0A557B0747FF56C02 /* Pods-iOSAPICallHandlingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +633,7 @@
 		};
 		1BE345C1216DFE360026A7B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3463B0D9F9570B7F5EFA21 /* Pods-iOSAPICallHandlingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +653,7 @@
 		};
 		1BE345C2216DFE360026A7B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485CA41C1B4889B0B9122F87 /* Pods-iOSAPICallHandlingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
